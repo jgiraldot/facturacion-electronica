@@ -1,5 +1,43 @@
 // main: main.less
 
+.main-banner{
+   color: @dark-blue;
+    
+    h1{
+            
+    }
+   
+    span{
+        color:@light-blue;
+        font-weight: 300;
+        font-size: 60px;
+        
+        &.cloud{
+            display: block;
+            font-size: 100px;
+            color: @dark-blue;
+            font-weight: 600;
+            line-height: 0.7;
+            
+            &:after{
+                content: "";
+                display: block;
+                background: url(../images/cloud-icon.png) no-repeat center center;               
+                height: 130px;
+                top: -145px;
+                right: -57px;
+                position: relative;
+               
+               
+}
+            }
+        }
+    }
+    
+    
+  
+
+
 .block-featured{
     background: url(../images/bg-featured.jpg) no-repeat center center;
     background-size: cover;
@@ -33,7 +71,7 @@
     }
 }
 .block-1{
-    background: @gray-ligth;
+   
     text-align: center;
     padding: 50px 0 100px 0;
     .title{
