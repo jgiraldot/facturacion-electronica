@@ -1,0 +1,33 @@
+// main: main.less
+
+footer{
+    background: @gray-ligth;
+    padding: 50px 0;
+    p {
+        margin: 0;
+        line-height: 1.5;
+        font-size: 14px;
+        font-family: @font-family-2;
+        &:nth-child(2){
+            font-style: italic;
+            font-weight: 600;
+        }
+    }
+    a{
+        color: @green;
+        text-decoration: none;
+        &:hover{
+            text-decoration: none;
+            color: @gray-dark;
+        }
+    }
+    .redes{
+        text-align: right;
+        a{
+            &:before{
+                font-size: 25px;
+                padding-left: 15px;
+            }   
+        }
+    }
+}
